@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adventure 1 </title>
+    <title>Adventure 1</title>
+
+    <link rel= "stylesheet" type= "text/css" href="adv1.css">
+    <script src="advfunctions.js"></script>
 </head>
+
+
 <body>
+
+    <div class="center">
+        <h2> You wake up. You realize you just had a nightmare. Yeah, there's no way COVID-19 has gotten that far. They only just extended it to the end of April.
+            It's going to be a good week. Revealing week with all the trolling bigs but you go to your laptop because your dumb professor is still hosting lectures 
+            during Spring Break, like who the fuck does that. What should you do?
+        </h2>
+        <div class="center">
+            <button class="button" onclick="showZoom()">Launch Zoom</button>
+            <button class="button" onclick="location.href='adv2.html'">Skip Class</button>
+        </div>
+    </div>
+
+
+    <div id="zoom" class="hidden"> 
+        <img src = "zoom.png" onclick="location.href='index.html'">
+    </div>
+
+
     
 </body>
 </html>
