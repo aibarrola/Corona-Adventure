@@ -30,11 +30,38 @@ h4{
     margin: 0 auto;
   }
 
+  .yes{
+      color: white;
+      background-color: green;
+  }
+
+  .no{
+      color:white;
+      background-color: red;
+  }
+
+  .choices{
+      color: white;
+      background-color: steelblue;
+  }
+
+
   #respawn{
       color: black;
       background-color:red;
   }
 
+  
+  #chat1{
+      visibility: hidden;
+  }
+  #chat2{
+      visibility: hidden;
+  }
+  #prompt1{
+      visibility: hidden;
+  }
+ 
   
 
   .center{

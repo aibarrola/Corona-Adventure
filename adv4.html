@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ligma</title>
+    <link rel= "stylesheet" type= "text/css" href="adv1.css">
+    <script src="advfunctions.js"></script>
+</head>
+
+<body>
+    <div class="center">
+        <h2> You go over and talk to James Nguyen </h2>
+    </div>
+
+    <div class="row">
+        <div class="center column">
+            <img id="james" src="james.png">
+        </div>
+
+        <div class="column">
+            <h4 id="chat">James: Hi little! You may not know me but I am your big and I need your help to take this big bully down because he is hoarding all 
+                the food! Can you he1p me? </h4>
+            
+            <div class="center">
+                <button class="button yes" onclick="showChat1()"> Yes </button> <button class="button no" onclick="location.href='deathscreen.html'"> No </button>
+            </div>
+
+            <div id="chat1" class="hidden">
+                <h4> Thank you! In 0rder to distract him, you have to yell my favorite word. 1 will then attack him on the side. Sounds good? Okay. Do you 
+                    know what my favorite word is? 
+
+                    <form onSubmit="Javascript:showChat2(); return false;">
+                        <input type="text" id="favword">
+                        <input type="submit">
+                    </form>
+                </h4>
+            </div>
+
+            <div id="chat2">
+                <h4> James: Y3S! Good job! We took down the big bully and have access to food. Let's get out of here it's getting chaotic or should we stay and gather more food? </h4>
+                
+                <div class="center">
+                    <button class="button choices" onclick="costcoShutdown()"> Get out of here </button> <button class="button choices" onclick="location.href='deathscreen.html'"> Gather more food  </button>
+                </div>
+            </div>
+
+            <div id="prompt1">
+                <h4> The lights have been shutdown. You and James get to the door and it is locked. There is a number passcode. </h4>
+
+                <div class="center">
+                    <form onSubmit="Javascript:checkCode(); return false;">
+                        <input type="number" id="numinput">
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+
+    
+        </div>
+    </div>
+  
+
+
+    
+    
+    
+    
+</body>
+</html>
