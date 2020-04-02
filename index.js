@@ -4,6 +4,7 @@ function darkmode() {
         var intro = document.getElementById('intro');
         var button = document.getElementById('button');
         var link = document.querySelector('button');
+        
 
         document.body.style.backgroundColor = "black";
         

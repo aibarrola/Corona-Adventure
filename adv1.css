@@ -8,15 +8,12 @@ img{
     margin-top: 30px;
 }
 
-h4{
-    font-size: 30px;
-    background-color: lightblue;
-}
-
-
-.hidden{
+/* _____________________________________ADVENTURE 1 */
+#hidden{
     visibility: hidden;
 }
+
+/* ______________________________________BUTTONS */
 
 .button {
     background-color: steelblue; 
@@ -40,11 +37,12 @@ h4{
       background-color: red;
   }
 
-  .choices{
-      color: white;
-      background-color: steelblue;
-  }
+  .center{
+    text-align:center;
+}
 
+
+  /* _________________________DEATH SCREEN */
 
   #respawn{
       color: black;
@@ -52,21 +50,20 @@ h4{
   }
 
   
-  #chat1{
-      visibility: hidden;
-  }
-  #chat2{
-      visibility: hidden;
-  }
-  #prompt1{
+
+  /* _________________________ADVENTURE 4 */
+.adv4text{
+    font-size: 25px;
+    color:white;
+}
+
+  #chat1, #chat2, #prompt1{
       visibility: hidden;
   }
  
-  
 
-  .center{
-      text-align:center;
-  }
+
+
 
 
   /* Three image containers (use 25% for four, and 50% for two, etc) */

@@ -13,12 +13,12 @@
         <h2> You go over and talk to James Nguyen </h2>
     </div>
 
-    <div class="row">
+    <div class="row adv4text">
         <div class="center column">
             <img id="james" src="james.png">
         </div>
 
-        <div class="column">
+        <div class="center column">
             <h4 id="chat">James: Hi little! You may not know me but I am your big and I need your help to take this big bully down because he is hoarding all 
                 the food! Can you he1p me? </h4>
             
@@ -41,12 +41,16 @@
                 <h4> James: Y3S! Good job! We took down the big bully and have access to food. Let's get out of here it's getting chaotic or should we stay and gather more food? </h4>
                 
                 <div class="center">
-                    <button class="button choices" onclick="costcoShutdown()"> Get out of here </button> <button class="button choices" onclick="location.href='deathscreen.html'"> Gather more food  </button>
+                    <button class="button" onclick="costcoShutdown()"> Get out of here </button> <button class="button" onclick="location.href='deathscreen.html'"> Gather more food  </button>
                 </div>
             </div>
 
             <div id="prompt1">
                 <h4> The lights have been shutdown. You and James get to the door and it is locked. There is a number passcode. </h4>
+
+                <div class="center"> 
+                    <img src="https://cdn2.vectorstock.com/i/1000x1000/42/61/combination-lock-number-code-on-dark-background-vector-2014261.jpg>"height="200px" width="300px">
+                </div>
 
                 <div class="center">
                     <form onSubmit="Javascript:checkCode(); return false;">

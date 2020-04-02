@@ -3,9 +3,12 @@
 
 function showZoom(){
     var img = document.getElementById("zoom");
+    var link = document.querySelector('button');
 
     document.getElementById("skipClass").disabled = true;
     img.style.visibility = "visible";
+
+    link.setAttribute("onClick", "location.href='deathscreen.html'");
 }
 
 // ADVENTURE 4 FUNCTIONS_________________________________________________________________________________
@@ -19,8 +22,11 @@ function showChat2(){
     var chat = document.getElementById("chat2");
     var input = document.getElementById("favword").value;
     var password = "ligma";
+    input = input.toLowerCase();
     if(input === password){
         chat.style.visibility="visible";
+    }else{
+        alert("Wrong bitch. Go ask James or look at Tab");
     }
 }
 
@@ -37,6 +43,9 @@ function checkCode(){
     if(input === "1013"){
         document.location.href='adv5.html';
     }else{
-        alert("WR0NG. L00K CAREFULLY.");
+        document.location.href='deathscreen.html';
     }
 }
+
+// ADVENTURE 5 FUNCTIONS_________________________________________________________________________________
+
