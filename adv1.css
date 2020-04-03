@@ -62,6 +62,25 @@ img{
   }
  
 
+  /* _________________________ADVENTURE 5 */
+
+  .officers{
+      width: 400px;
+      height: 600px;
+  }
+
+  #carOffer{
+      visibility: hidden;
+  }
+
+    /* _________________________ADVENTURE 5 */
+  #finalmessage{
+      color: white;
+      margin-top: 5%;
+      margin-left: 20%;
+      margin-right: 20%;
+      font-size: 30px;
+  }
 
 
 
