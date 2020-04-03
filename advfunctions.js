@@ -64,7 +64,7 @@ function derek(){
     document.location.href='deathscreen.html';
 }
 function kristin(){
-    alert("she slices you up with her ninja umbrella skills");
+    alert("you both do karaoke with her beautiful voice and as you are singing your heart out she slices you up with her ninja umbrella skills");
     document.location.href='deathscreen.html';
 }
 function calvin(){
