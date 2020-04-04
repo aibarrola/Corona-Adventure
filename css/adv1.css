@@ -1,5 +1,6 @@
 body{
     background-color: lightblue;
+    font-family: monospace;
 }
 
 img{
@@ -62,7 +63,7 @@ img{
   }
 
 #james{
-    width: auto;
+    width: 90%;
     height: auto;
 }
  

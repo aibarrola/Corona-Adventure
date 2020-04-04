@@ -3,8 +3,8 @@
 body{
     background-color:  #99CC99;
     border: 6px solid #993300;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 hr.style1{
@@ -26,7 +26,7 @@ hr.style1{
     border: none;
     background-color: #993300;
     padding: 14px 28px;
-    font-size: 30px;
+    font-size: 2vw;
     cursor: pointer;
     text-align: center;
     margin-left: auto;
@@ -38,7 +38,8 @@ hr.style1{
 
 /* >>ID SELECTORS<< */
 #title{
-    font-size: 50px;
+    font-size: 5vw;
+    /* font-size: 50px; */
     color: #993300;
     font-family: monospace;
     margin-top: 20px;
@@ -46,7 +47,7 @@ hr.style1{
 }
 
 #intro{
-    font-size: 20px;
+    font-size: 2vw;
     color: #993300;
     font-family: monospace;
     margin-left: 10%;
