@@ -5,8 +5,10 @@ function showZoom(){
     var img = document.getElementById("zoom");
     var link = document.querySelector('button');
     document.getElementById("skipClass").disabled = true;                   //Disables Skip Class button 
+    
     img.style.visibility = "visible";
-    link.setAttribute("onClick", "location.href='deathscreen.html'");       //Changes the function of the button
+    link.innerHTML = "Launch Zoom";
+    link.setAttribute("onClick", "alert('the teacher makes you download the hw on canvas but its actually a virus, coronavirus.'); location.href='deathscreen.html'");       //Changes the function of the button
 }
 
 // ADVENTURE 4 FUNCTIONS_________________________________________________________________________________
