@@ -55,7 +55,6 @@ function showCaroffer(){
 
 }
 
-
 function andrew(){
     alert("he eats your ass and starts licking you feet but then accidentally bites your toe and you start bleeding");
     document.location.href='deathscreen.html';

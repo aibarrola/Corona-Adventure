@@ -5,7 +5,6 @@ function darkmode() {
         var button = document.getElementById('button');
         var link = document.querySelector('button');
         
-
         document.body.style.backgroundColor = "black";
         
         title.style.fontFamily = "Fantasy";
@@ -21,6 +20,4 @@ function darkmode() {
         button.innerHTML = "Click to Begin";
 
         link.setAttribute("onClick", "location.href='adv1.html'");
-
-
     }
