@@ -1,2 +1,4 @@
-# adventure
-Choose Your Own Adventure. COVID-20 version 
+# Corona Adventure
+
+# Context
+Created a choose your own adventure website for my VSA family during the time of quarantine to keep them entertained at home!
