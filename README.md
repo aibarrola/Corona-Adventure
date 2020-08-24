@@ -1,5 +1,5 @@
 # Corona Adventure
-### A Choose Your Own Adventure Escape Room (COVID-20 edition) \
+### A Choose Your Own Adventure Escape Room (COVID-20 edition) 
 
 
 __Context__:
